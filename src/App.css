@@ -1,0 +1,95 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #fff;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 60vh;
+  width: 400px;
+  text-align: center;
+}
+
+.center {
+  margin-top: 60px;
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn1,
+.btn2 {
+  padding: 8px 16px;
+  margin: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn1 {
+  background-color: #4caf50;
+}
+
+.btn2 {
+  background-color: #f44336;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  font-weight: bold;
+  color: #4caf50; /* Default green color */
+}
+
+/* Update the color based on BMI range */
+h3.underweight {
+  color: #f44336; /* Red color for underweight */
+}
+
+h3.overweight {
+  color: #f44336; /* Red color for overweight */
+}
+p {
+  font-weight: bold;
+}
+
+/* Update the color based on BMI range */
+p.underweight {
+  color: #f44336; /* Red color for underweight */
+}
+
+p.overweight {
+  color: #f44336; /* Red color for overweight */
+}
+
+p.normal {
+  color: #4caf50; /* Green color for normal weight */
+}
